@@ -21,63 +21,36 @@
             <img src="" alt="Home Icon">
         </a>
         <nav>
-            <span>About</span>
-            <span>Experiences</span>
-            <span>Skills</span>
-            <span>Contact</span>
-        </nav>
-    </header>
+        <ul>
+            <li><a href="#experienceTab">My experiences</a></li>
+            <li><a href="#skillsTab">My skills</a></li>
+            <li><a href="#projectTab">My projects</a></li>
+            <li><a href="CV">CV</a></li>
+        </ul>
+        </nav> 
+    </header> <!--Ici se termine l'header du portfolio -->
 
     <main id="pageContent">
-        <section class="about">
-            Welcome to my first Portfolio !
-            <br> I'm Tristan GOTTSCHALK from France & junior Front-end & Back-end and I'm glad that you are here !
-            <br> What do you want to know about me ?
+        <section id="about" style="border: solid; height: 100vh;">
+ <span> Welcome to my PortFolio.
+ <br>I'm Tristan GOTTSCHALK and I'm glad to see you here !
+ <br> Here you will find more informations about me. I hope you'll enjoy !
+ <span><a href="mailto:"> Click here to send me an email if you want to reach me ! </a></span>
+</span>
 
-            <nav class="pageContentNavigation">
-                <ul>
-                    <li><a href="#experience">My experiences</a></li>
-                    <li><a href="#skills">My Skills</a></li>
-                    <li><a href="#project">My project</a></li>
-                </ul>
-            </nav>
+<div class="arrowContainer"><a href="#experienceTab"><img src="svg/down-arrow-svgrepo-com.svg" alt="Asking to scroll down"></a></div>
+
         </section> <!--Ici se termine la section About & l'introduction au portfolio -->
 
+        <div class="divTab" id="experienceTab"></div>
 
-        <section id="experience" class="experience">
-            <h1>My experiences as ...</h1>
-            <div class="cardBox">
-                <article class="cards">
-                    <h1>Tech</h1>
-                    <span class="invisible"> Studying Front&Back-End </span>
-                </article>
+        <section id="experience" class="experience" style="border: solid; height: 50vh;">
+        </section> <!--Ici se termine la section Experience au portfolio -->
 
+        <div class="divTab" id="skillsTab"></div>
 
-                <article class="cards">
-                    <h1>Teacher</h1>
-                    <span class="invisible">Ex-teacher for the youngest (from 3 to 12 years olds), I've worked with every age while 5 years of teaching as Internship and Teacher</span>
-                </article>
-
-
-                <article class="cards">
-                    <h1>Coach</h1>
-                    <span class="invisible"> I've been assistant-coach, fitness trainer & video-data analyst for a PNM & PNF basket team for 3 years. I've been helping others clubs as well </span>
-                </article>
-
-
-                <article class="cards">
-                    <h1>Extra</h1>
-                    <span class="invisible">I've worked for one store for 18 months & others for small periods of time </span>
-                </article>
-
-
-
-            </div>
-        </section>
-
-
-        <section id="skills">
-        </section>
+        <section id="skills" style="border: solid; height: 80vh;">
+        </section> <!--Ici se termine la section skills au portfolio -->
     </main>
 
     <footer style="display: none;">Contact & lien </footer>

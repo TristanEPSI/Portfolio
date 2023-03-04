@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--black);
+    min-height: 50px;
+    border-radius: 0px 0px 15px 15px ;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 90%;   
+}
+
+header nav{
+    max-width:500px;
+    width: 60%;
+    height:90%;
+}
+
+header ul  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    font-size: 1.3em;
+}
+
+header ul li a{
+    list-style: none;
+    color: var(--white);
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+
+header ul li a:hover{
+color: var(--whitehover);
+font-size: 1.05em;
+transition: 200ms;
+}
+
+header ul li a:active{
+    color:orange
+    }

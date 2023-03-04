@@ -1,6 +1,29 @@
-section.about{
-    height: 50vh;
-    margin-top: 50px;
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    border: solid;
+    font-size: 1.7em;
+    line-height: 50px;
+}
+
+#about span a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 50px ;
+}
+
+
+.arrowContainer{
+    width: 40px;
+    height: 40px;   
+    position: absolute;
+    top: 90%;
+    left: 80%;
+}
+
+
+.arrowContainer img{
+    width: 100%;
 }
