@@ -7,6 +7,7 @@
 *{
     margin: 0px 15px;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 
@@ -17,7 +18,6 @@
 }
 
 .divTab{
-    background-color: blue;
     width: 100%;
     min-height: 50px;
    
