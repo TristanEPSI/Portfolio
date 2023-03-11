@@ -1,0 +1,76 @@
+ /* Section title */
+#skills h1 {
+text-align: center;
+font-size: 1.5em;
+margin-bottom: 20px;
+}
+
+ /* Grid properties */
+.skillsGrid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: 100%;
+    border: solid;
+}
+
+ /* Line flex properties */
+.flexLine{
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ /* Line Flex children */
+.flexLine article{
+    border: solid;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3em;
+    width: 20%;
+    height: 80%;
+}
+  /* Title of childs & span without :hover */
+.flexLine h2{
+    font-size: 1.3em;
+}
+
+.flexLine article span{
+display: none;
+}
+
+/* :hover effect for childs */
+.flexLine article:hover{
+    width: 100%;
+    height: 100%;
+    transition: 700ms;    
+}
+
+.flexLine article:hover span{
+    display:flex;
+    flex-direction: column;
+}
+
+.flexLine article:hover h2{
+  margin-bottom: 15px;
+}
+
+/* Tag color for group semantic */
+.dev{
+background-color: #474444;
+}
+
+.teacher{
+background-color: #42bd32e1;
+}
+
+.coach{
+background-color: #bd5120ec;
+}
+
+.all{
+background-color: rgba(68, 68, 223, 0.877);
+}
